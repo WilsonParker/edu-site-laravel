@@ -1,0 +1,103 @@
+/* 메인공통 */
+.main_tit{margin-bottom: 20px}
+.main_tit:after{content: ''; display: block; clear: both}
+.main_tit h2{padding-left: 20px; float: left; position: relative; font-size: 20px; font-weight: 700; font-family: 'NanumSquare', '나눔스퀘어'}
+.main_tit h2:before{content: ''; width: 9px; height: 20px; position: absolute; left: 0; background: #2578BB}
+.main_tit h2:after{content: ''; width: 3px; height: 20px; position: absolute; left: 12px; background: #2578BB}
+.main_tit .main_btn{float: right}
+.main_tit .main_btn:after{content: ''; display: block; clear: both}
+.main_tit .main_btn a{float: left}
+.main_bg{padding: 40px 0; background-color: #F0F0F0}
+
+/* 메인배너 */
+.main_banner .banner_list img{width: 100%}
+.main_banner .banner_dot{position: absolute; left: 50%; bottom: 30px; transform: translate(-50%,0)}
+.main_banner .banner_dot:after{content: ''; display: block; clear: both}
+.main_banner .banner_dot li{height: 10px; margin-left: 10px; float: left;}
+.main_banner .banner_dot li:first-child{margin-left: 0}
+.main_banner .banner_dot li button{width: 9px; height: 9px; border: 1px solid #ffffff; border-radius: 100%; display: inline-block; vertical-align: top; color: #ffffff; font-size: 16px; text-indent: -9999px; background: transparent; cursor: pointer; transition: all .5s;}
+.main_banner .banner_dot li.slick-active button{width: 35px; border-radius: 40px; border-color: #3995A3; background-color: #3995A3}
+
+.banner-wrap{}
+.banner-wrap .main-banner{position: fixed; top: 50%;}
+.main-banner.banner-left{left: 50%; margin-left: -815px;}
+.main-banner.banner-right{right: 50%; margin-right: -815px;}
+
+
+/* 인기강좌 */
+.main_lecture{max-width: 1050px; padding: 40px 0; margin: 0 auto;height: 341px;}
+.main_lecture .lecture_list .slick-slide{margin-right: 10px}
+.main_lecture .lecture_list{font-size: 17px; text-align: center}
+.main_lecture .lecture_list .img{margin: 0; margin-bottom: 10px}
+.main_lecture .lecture_list .img img{display: inline-block}
+.main_lecture .main_btn .btn_prev,
+.main_lecture .main_btn .btn_next{height: 20px; border: 0; display: block; float: left; overflow: hidden; background: none; cursor: pointer}
+@media screen and (max-width:1050px) {
+	.main_lecture{padding: 40px 20px}
+}
+
+/* 퀵메뉴 */
+.main_quick{max-width: 1050px; width: 100%; margin: 0 auto; position: relative}
+.main_quick:after{content: ''; display: block; clear: both}
+.main_quick .quick_box:after{content: ''; display: block; clear: both}
+.main_quick .quick_box ul{margin-top: 7px; clear: both}
+.main_quick .quick_box ul:first-child{margin-top: 0}
+.main_quick .quick_box ul:after{content: ''; display: block; clear: both}
+.main_quick .quick_box ul li{width: 227px; height: 200px; padding: 30px 10px; margin-left: 7px; float: left; background: #ffffff; font-size: 14px; text-align: center ;letter-spacing: -1px}
+.main_quick .quick_box ul li:first-child{margin-left: 0}
+.main_quick .quick_box ul li a{display: block; color: #666666}
+.main_quick .quick_box ul li a .img{margin-bottom: 10px}
+.main_quick .quick_box ul li a .txt .tit{margin-bottom: 7px; color: #2578BB; font-size: 22px; font-weight: 700; font-family: 'NanumSquare', '나눔스퀘어'}
+.main_quick .quick_box02{width: 300px; position: absolute; bottom: 0; right: 0; color: #666666; font-size: 30px; font-weight: 700; text-align: center}
+.main_quick .quick_box02 .tit{color: #3995A3; font-size: 45px; font-weight: 700}
+.main_quick .quick_box02 p{font-family: 'NanumSquare', '나눔스퀘어'}
+@media screen and (max-width:1050px) {
+	.main_quick{padding: 0 20px}
+	.main_quick .quick_box ul li{width: calc(33.3333% - 7px)}
+	.main_quick .quick_box02{display: none}
+}
+@media screen and (max-width:545px) {
+	.main_quick .quick_box ul{margin-top: 0}
+	.main_quick .quick_box ul li{width: 100%; height: auto; margin-left: 0; margin-bottom: 10px}
+	.main_quick .quick_box ul li a .img{width: 100px; display: table-cell; vertical-align: middle}
+	.main_quick .quick_box ul li a .txt{padding-left: 20px; display: table-cell; vertical-align: middle; text-align: left}
+}
+
+/* 기타 */
+.main_etc{max-width: 1050px; padding: 40px 0; margin: 0 auto}
+.main_etc .etc_box{width: 100%; margin-bottom: 40px; display: table}
+.main_etc .etc_box:after{content: ''; display: block; clear: both}
+.main_etc .etc_box .list{padding: 10px 0}
+.main_etc .etc_box .list ul li{margin-top: 17px}
+.main_etc .etc_box .list ul li:first-child{margin-top: 0}
+.main_etc .etc_box .list ul li:after{content: ''; display: block; clear: both}
+.main_etc .etc_box .list ul li .tit{width: calc(100% - 90px); display: block; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px}
+.main_etc .etc_box .list ul li .tit:before{content: '·'; margin-right: 10px}
+.main_etc .etc_box .list ul li .date{margin-top: 1px; display: block; float: right; color: #888888; font-size: 14px}
+.main_etc .etc_box .etc_faq{width: 450px; padding-right: 20px; float: left}
+.main_etc .etc_box .etc_quick{float: right;}
+.main_etc .etc_box .etc_quick a{float: left}
+.main_etc .etc_box .etc_notice{width: 650px; display: table-cell; position: relative}
+.main_etc .etc_box .etc_notice .tab{width: 50%; height: 45px; border: 1px solid #b6b6b6; float: left; color: #666666; font-size: 18px; font-weight: 700; text-align: center; line-height: 45px}
+.main_etc .etc_box .etc_notice .tab a{display: block; color: inherit}
+.main_etc .etc_box .etc_notice .tab.on{border-color: #134976; color: #ffffff; background: #134976;}
+.main_etc .etc_box .etc_notice .list{width: 100%; height: 175px; padding: 25px 20px; border: 1px solid #b6b6b6; border-top: 0; position: absolute; top: 45px;}
+.main_etc .etc_box .etc_call{height: 220px; padding: 20px; border: 1px solid #B9B9B9; border-left: 0; display: table-cell; vertical-align: middle; text-align: center; color: #666666; font-size: 15px; font-weight: 700; background: #F8F8F8}
+.main_etc .etc_box .etc_call .tit{margin-bottom: 5px; color: #4c4c4c; font-size: 24px; font-weight: 700}
+.main_etc .etc_box .etc_call .num{margin-bottom: 10px; color: #08487a; font-size: 40px; font-weight: 900; letter-spacing: -1px}
+@media screen and (max-width:1050px) {
+	.main_etc{padding: 40px 20px}
+	.main_etc .etc_box .etc_faq{width: 100%; padding-right: 0; float: none}
+	.main_etc .etc_box .etc_quick{display: none}
+}
+@media screen and (max-width:991px) {
+	.main_etc .etc_box .etc_call{width: 300px}
+}
+@media screen and (max-width:768px) {
+	.main_etc .etc_box{display: block}
+	.main_etc .etc_box .etc_notice{width: 100%; height: 220px; display: block}
+	.main_etc .etc_box .etc_call{width: 100%; height: auto; border-top: 0; border-left: 1px solid #b9b9b9; display: block}
+}
+@media screen and (max-width:545px) {
+	.main_etc .etc_box .etc_call .num{font-size: 35px}
+}

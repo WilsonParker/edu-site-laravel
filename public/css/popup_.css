@@ -1,0 +1,137 @@
+body{width: 100%; height: 100%}
+img{vertical-align: middle}
+input{vertical-align: middle}
+iframe{border: 0; display: block}
+
+
+.pop_study{width: 100%; height: 100%;margin: 0 auto; display: flex; position: relative;}
+.pop_study:after{content: ''; display: block; clear: both}
+.pop_study .study_left{width: calc(100% - 450px);}
+.pop_study .study_right{width: 450px; height: 100%; padding: 0 20px 100% 20px;background-color: #f9f9f9; /*position: absolute; */left: 0; top:0; overflow-y: scroll}
+.pop_study .video_select{position: absolute; top: 0; right: 0;}
+
+.pop_study .display_btn{width: 15px; border: 0; float: left; background: url(/images/sub/study/icon_arrow.jpg) no-repeat -15px center transparent; cursor: pointer}
+.pop_study .display_btn.on{background-position: 0px center}
+.pop_study .study_right .study_box .tit_box{margin-bottom: 30px}
+.pop_study .study_right .study_box .tit_box h2{padding: 10px; margin-bottom: 20px; color: #ffffff; font-size: 30px; font-weight: bold; text-align: center; background-color: #2C77B6}
+.pop_study .study_right .study_box .tit_box h3{padding-left: 30px; margin-bottom: 5px; position: relative; color: #2C77B6; font-size: 18px; font-weight: 700; letter-spacing: -0.5px}
+.pop_study .study_right .study_box .tit_box h3:before{content: ''; width: 10px; height: 20px; position: absolute; top: 0; left: 0; background: #2C77B6}
+.pop_study .study_right .study_box .tit_box h3:after{content: ''; position: absolute; top: 0; left: 10px; border-top: 10px solid transparent; border-left: 10px solid #2C77B6; border-right: 10px solid transparent; border-bottom: 10px solid transparent}
+.pop_study .study_right .study_box .tit_box h4{padding-left: 30px; font-size: 15px; letter-spacing: -0.5px}
+.pop_study .study_right .study_box .study_con iframe{width: 100%; height: 360px; overflow-y: scroll}
+.pop_study .study_right .study_box .study_con .con_box{padding: 30px 20px; border: 1px solid #bfbfbf; border-top: 0; background: #ffffff}
+.pop_study .study_right .study_box .end_btn{padding: 20px 0; margin: 20px 0; border-radius: 3px; display: block; color: #ffffff; font-size: 18px; font-weight: bold; text-align: center; background-color: #2C77B6;}
+.pop_box{margin-bottom: 30px; font-size: 15px; line-height: 1.6em}
+.pop_tit{margin-bottom: 30px; color: #353535; font-size: 16px}
+.pop_tit02{padding: 15px; background-color: #3863A6}
+.pop_tit02 h2{color: #ffffff; font-size: 22px; font-weight: bold}
+.pop_tit03{margin-top: 50px; margin-bottom: 30px; font-size: 30px; font-weight :bold; text-align: center}
+
+.pop_tab{width: 100%; padding: 0; margin-bottom: 0; display: table; table-layout: fixed}
+.pop_tab li{border: 1px solid #BFBFBF; border-left: 0; display: table-cell; background: transparent; letter-spacing: -1px; cursor: pointer}
+.pop_tab li:first-child{border-left: 1px solid #bfbfbf}
+.pop_tab li a{padding: 10px 5px; display: block; color: #4c4c4c; font-size: 15px}
+.pop_tab li.on{border-right-color: #bfbfbf; border-top: 3px solid #2C77B6; background: #ffffff}
+.pop_tab li.on:before{border-color: #bfbfbf}
+.pop_tab li.on:after{display: none}
+.pop_tab li.on a{color: #2C77B6; font-weight: normal}
+
+.pop_con{width: 70%; padding: 40px; margin: 0 auto 30px; border: 1px solid #C2C8D2; color: #353535; font-size: 15px; background-color: #ffffff}
+.pop_con ul li{margin-bottom: 10px}
+.pop_con ul li:before{content: ''; margin-right: 10px; vertical-align: 2px; display: inline-block; width: 5px; height: 5px; background: #353535}
+.pop_check{margin-bottom: 30px; text-align: center}
+.pop_check input{margin: 0}
+@media screen and (max-width:767px) {
+	.pop_con{width: 100%; padding: 20px; font-size: 14px}
+}
+
+.pop_btn_box{display: table; margin: 0 auto}
+.pop_btn_box02{margin-bottom: 30px}
+.pop_btn_box02 .pop_btn_left{float: left}
+.pop_btn_box02 .pop_btn_right{float: right}
+@media screen and (max-width:767px) {
+	.pop_btn_box02 .pop_btn_left{margin: 0 auto 4px; display: table; float: none}
+	.pop_btn_box02 .pop_btn_right{margin: 0 auto; display: table; float: none}
+}
+.pop_btn{width: 145px; height: 50px; border: 0; border-radius: 5px; color: #ffffff; font-size: 18px; background-color: #3F6DC2; cursor: pointer}
+.pop_btn02{width: 130px; height: 45px; padding-right: 30px; border: 0; border-radius: 5px; color: #ffffff; text-align: right; background: url(/images/sub/study/arrow_prev.png) 20% center no-repeat #3863A6; cursor: pointer}
+.pop_btn03{width: 130px; height: 45px; padding-left: 30px; border: 0; border-radius: 5px; color: #ffffff; text-align: left; background: url(/images/sub/study/arrow_next.png) 80% center no-repeat #3863A6; cursor: pointer}
+.pop_btn04{width: 130px; height: 45px; border: 0; border-radius: 5px; color: #ffffff; background-color: #F37D34; cursor: pointer}
+.pop_btn05{width: 130px; height: 45px; border: 0; border-radius: 5px; color: #ffffff; background-color: #3863A6; cursor: pointer}
+.pop_btn06{width: 90px; height: 40px; line-height: 40px; border: 1px solid #A8A8A8; display: inline-block; color: #353535; font-size: 14px; text-align: center; background-color: #CFCFCF; cursor: pointer}
+.pop_btn07{width: 100px; height: 40px; padding-right: 20px; border: 0; border: 1px solid #A8A8A8; color: #353535; text-align: right; background: url(/images/popup/arrow_prev3.png) 20% center no-repeat #CFCFCF; cursor: pointer}
+.pop_btn08{width: 100px; height: 40px; padding-left: 20px; border: 0; border: 1px solid #A8A8A8; color: #353535; text-align: left; background: url(/images/popup/arrow_next3.png) 80% center no-repeat #CFCFCF; cursor: pointer}
+.pop_btn09{width: 90px; height: 40px; line-height: 40px; border: 1px solid #C1622E; display: inline-block; color: #ffffff; font-size: 14px; text-align: center; background-color: #F37D34; cursor: pointer}
+.pop_btn09:hover, .pop_btn9:focus{color: #ffffff}
+.pop_btn10{width: 90px; height: 40px; line-height: 40px; border: 1px solid #383838; display: inline-block; color: #ffffff; font-size: 14px; text-align: center; background-color: #383838; cursor: pointer}
+
+.pop_text_icon{padding: 0 5px; margin-right: 5px; display: inline-block; vertical-align: middle; color: #ffffff; font-size: 12px; font-family: '돋움', Dotum; text-align: center; background-color: #cc6060}
+.pop_user{padding: 20px}
+.pop_test{padding: 0 20px}
+.pop_test .answer_txt{border: 0; padding: 0; margin: 0; width: calc(100% - 12px); height: 35px; padding-left: 10px; border: 1px solid #BEBEBE}
+.pop_test .answer_area{width: 100%; height: 240px; padding: 10px; border: 0; border: 1px solid #bebebe; resize: none}
+.test_box{margin-bottom: 20px}
+.test_box label{font-weight: normal}
+.test_box input{margin: 0}
+.test_ask{padding: 15px 10px; margin-bottom: 15px; border: 1px solid #BABABA; color: #353535; font-size: 14px; word-break: break-all; background-color: #ffffff}
+.test_radio{padding: 0 10px; line-height: 1.6em}
+.test_radio li{margin-bottom: 10px; font-size: 14px}
+.pop_homework{padding: 0 20px; margin-bottom: 30px}
+
+.pop_bottom{padding: 20px; border-top: 1px solid #dcdcdc; background-color: #F0F1F2}
+.pop_bottom .tit{margin-bottom: 20px}
+.pop_bottom .emp{color: #da1c1c}
+
+.pop_search_box{margin-bottom: 20px}
+.pop_search_box:after{content: ''; display: block; clear: both}
+.pop_tit{font-size: 14px; font-weight: bold}
+.pop_tit:after{content: ''; display: block; margin-top: 10px; margin-bottom: 30px; border-bottom: 1px solid #b9b9b9; box-shadow: 0 1px 0 #ffffff}
+.notice_search{float: right}
+.pop_search_box{float: right; clear: both}
+.pop_search_box select{width: 90px; height: 33px; padding-left: 10px; border: 0; border: 1px solid #C3C3C3; border-right: 0; float: left; font-size: 14px; background-color: #F1F1F1}
+.pop_search_box input[type="text"]{width: 180px; height: 33px; padding-left: 10px; border: 0; border: 1px solid #c3c3c3; border-right: 0; float: left; font-size: 14px; background-color: #ffffff}
+.pop_search_box .search_icon{width: 35px; height: 33px; border: 0; border: 1px solid #c3c3c3; float: left; text-indent: -9999px; background: url(/images/popup/search.png) no-repeat center center #f1f1f1}
+@media screen and (max-width:767px) {
+	.pop_search_box{float: none}
+	.pop_search_box input[type="text"]{width: calc(100% - 125px)}
+}
+
+.pop_pager{display: table; margin: 0 auto 30px}
+.pop_pager img{vertical-align: -1px}
+.pop_pager li{width: 26px; height: 26px; margin-left: 4px; border: 1px solid #C3C3C3; float: left; font-size: 14px; text-align: center; cursor: pointer}
+.pop_pager li:first-child{margin-left: 0}
+.pop_pager li:hover{background-color: #DFDFDF}
+.pop_pager li a{display: block; color: #828282}
+.pop_pager li.on{border-color: #424242; background-color: #424242}
+.pop_pager li.on a{color: #ffffff}
+
+.point_box{padding: 10px 0; border-bottom: 1px dashed #CBCBCB}
+.point_box .point_tit{margin-bottom: 5px; color: #2C77B6; font-size: 14px; font-weight: 900; font-family: 'Nanum Gothic', '나눔고딕'}
+.point_box .point_tit:before{content: ''; width: 14px; height: 16px; margin-right: 10px; display: inline-block; vertical-align: middle; background: #2C77B6}
+.point_box .point_con{font-size: 13px; font-family: 'Nanum Gothic', '나눔고딕' , sans-serif;}
+.point_box .point_con div, p, input, textarea, ul, li, ol{font-family: 'Nanum Gothic', '나눔고딕' , sans-serif;}
+.point_box .list_num{counter-reset: list_num 0}
+.point_box .list_num li{font-size: 13px}
+.point_box .list_num li:before{content: counter(list_num)'. '; counter-increment: list_num 1;}
+
+/* 서치박스 */
+.search_box select,
+.search_box input[type="text"],
+.search_box input[type="search"]{height: 30px; font-size: 15px}
+.search_box input[type="image"],
+.search_box input[type="submit"]{height: 30px; padding: 7px}
+
+/* 테이블 */
+.pop_box .t_style32 th,
+.pop_box .t_style32 td{font-size: 15px}
+
+/* html5용 팝업css */
+.pop_study.type02 .study_left{float: none}
+.pop_study.type02 .study_right{width: 100%; padding: 0; float: none; position: static}
+.pop_study.type02 .study_right .study_box .tit_box h3,
+.pop_study.type02 .study_right .study_box .tit_box h4{margin: 0 20px 5px}
+.pop_study.type02 .study_right .study_box .study_con iframe{height: 240px}
+.pop_study.type02 .study_video{width: 100%; height: 0; position: relative; padding-bottom: 56%}
+.pop_study.type02 .study_video iframe{width: 100%; height: 100%; position: absolute; top: 0; left: 0}
+.pop_study.type02 .study_con{padding: 0 20px}
+
