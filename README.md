@@ -9,7 +9,8 @@
 
 ## edu-site-laravel
 
-교육(강의) 사이트를 벤치마킹하여 php8.1, Laravel8 학습용으로 개발한 project 입니다
+사이트를 벤치마킹하여 php8.1, Laravel8 학습용으로 개발한 project 입니다   
+view 내용 없이 Http 소스 위주 입니다
 
 ## Sub Module
 
@@ -31,11 +32,5 @@ npm run init
 
 - [LaravelSupports](https://github.com/WilsonParker/LaravelSupports)
 - [JavascriptSupports](https://github.com/WilsonParker/JavascriptSupports)
-
-## Worker
-
-```shell
-php artisan queue:work --queue=high,default
-```
 
 ## To do
