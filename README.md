@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## edu-site-laravel
+## study-laravel-project
 
 사이트를 벤치마킹하여 php8.1, Laravel8 학습용으로 개발한 project 입니다   
 view 내용 없이 Http 소스 위주 입니다

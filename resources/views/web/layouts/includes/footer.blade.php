@@ -14,9 +14,9 @@
         </ul>
     </div><!-- class="footer_top" -->
     <div class="footer_bottom">
-        <h1><a href="/"><x-image src="data/logo/logo.png " alt="edu-site-laravel"></x-image></a></h1>
+        <h1><a href="/"><x-image src="data/logo/logo.png " alt="study-laravel-project"></x-image></a></h1>
         <div class="footer_info">
-            Copyright (c)  edu-site-laravel All rights reserved.		</div>
+            Copyright (c)  study-laravel-project All rights reserved.		</div>
         <div class="footer_family">
             <p class="tit">패밀리사이트</p>
             <ul>

@@ -33,7 +33,7 @@ class APITest extends TestCase
 
     public function testCode() {
         $client = new Client();
-        $response = $client->get('https://kauth.kakao.com/oauth/authorize?client_id=2be673b3baae9b7075d3d442ca0a0b09&redirect_uri=https://edu-site-laravel.test/kakao/login&response_type=code');
+        $response = $client->get('https://kauth.kakao.com/oauth/authorize?client_id=2be673b3baae9b7075d3d442ca0a0b09&redirect_uri=https://study-laravel-project.test/kakao/login&response_type=code');
 
         dd($response->getBody()->getContents());
     }

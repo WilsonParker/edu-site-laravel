@@ -93,7 +93,7 @@ class BoardController extends BaseController
 
     public function manual()
     {
-        Storage::disk('upload')->download('/data/manual/edu-site-laravel.pdf');
+        Storage::disk('upload')->download('/data/manual/study-laravel-project.pdf');
     }
 
     public function ncs_guide(Request $request, BoardsModel $board)

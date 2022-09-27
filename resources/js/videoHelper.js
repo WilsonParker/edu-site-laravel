@@ -19,7 +19,7 @@ const videoHelper = {
                         return typeof data.iframe.contentWindow.Dirnumber != 'undefined';
                     },
                     callback: function (data) {
-                        addScript('https://edu-site-laravel.co.kr/vod/js/one_script.js', data.iframeBody, function () {
+                        addScript('https://study-laravel-project.co.kr/vod/js/one_script.js', data.iframeBody, function () {
                         });
                     }
                 }

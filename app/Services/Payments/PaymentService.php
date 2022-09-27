@@ -76,7 +76,7 @@ class PaymentService extends AbstractCodeGenerator
 
     public function createCode(): string
     {
-        return 'edu-site-laravel_' . now()->format('ymd') . '_' . Str::random(16);
+        return 'study-laravel-project_' . now()->format('ymd') . '_' . Str::random(16);
     }
 
     protected function beforeReady()

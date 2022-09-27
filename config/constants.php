@@ -21,7 +21,7 @@ return [
     ],
 
     'web' => [
-        'title' => 'edu-site-laravel',
+        'title' => 'study-laravel-project',
         'contact' => '00-000-0000',
     ],
 ];

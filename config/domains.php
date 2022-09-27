@@ -1,7 +1,7 @@
 <?php
 
-// $rootDomain = env('ROOT_DOMAIN', 'edu-site-laravel.co.kr');
-$rootDomain = env('APP_URL', 'edu-site-laravel.co.kr');
+// $rootDomain = env('ROOT_DOMAIN', 'study-laravel-project.co.kr');
+$rootDomain = env('APP_URL', 'study-laravel-project.co.kr');
 
 return [
     'root_domain' => $rootDomain,

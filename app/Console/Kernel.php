@@ -32,7 +32,7 @@ class Kernel extends ConsoleKernel
          * queue 가 실행중인지 체크하고 queue 가 종료 됐을 경우 재시작합니다.
          */
         // $schedule->command(EnsureQueueListenerIsRunning::class)->hourly()->sendOutputTo('schedule_daily.txt', true);
-        // * * * * * cd /Users/mac68/Development/Laravel/edu-site-laravel && /usr/local/bin/php artisan schedule:run >> /Users/mac68/Development/Laravel/edu-site-laravel/storage/logs/schedule-log.txt 2>&1
+        // * * * * * cd /Users/mac68/Development/Laravel/study-laravel-project && /usr/local/bin/php artisan schedule:run >> /Users/mac68/Development/Laravel/study-laravel-project/storage/logs/schedule-log.txt 2>&1
     }
 
     /**
